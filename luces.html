@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulo -->
+    <title>Smart Light Operationes</title>
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/index2.css">
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css">
+    <link rel="stylesheet" href="./assets/stylesheet/tablet.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/icon-logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <!-- Logo -->
+        <img src="./assets/images/deco/icon-logo.png" alt="Logo" class="logo__header">
+
+        <!-- nav bar -->
+        <nav class="nav_menu not-active">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="luces.html"> Proyecto </a></li>   
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <h1 class="page-title">Subir Imagen</h1>
+        <div class="upload-card">
+            <div class="file-upload-area">
+                <input type="file" id="fileInput" accept="image/*">
+                <p>Arrastra y suelta la imagen o haz clic para seleccionar</p>
+            </div>
+            <br><br>
+            <button onclick="uploadImage()">Subir Imagen</button>
+            <p id="message"></p>
+            <!-- Contenedor para mostrar la imagen -->
+            <div id="imagePreview"></div>
+        </div>
+        <script src="../Smart-Light-OP/script.js"></script>
+    </main>    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="container_redes-footer">
+                <img src="./assets/images/icon/icon-home.jpeg" alt="Logo" class="footer-logo">
+                 <!-- un link despues se vera a donde -->
+                <a href="https://www.ejemplo.com" target="_blank" class="footer-link"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

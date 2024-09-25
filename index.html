@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titulo -->
+    <title>Smart Light Operationes</title>
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="./assets/stylesheet/desktop.css">
+ <!--   <link rel="stylesheet" href="./assets/stylesheet/tablet.css"> -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/icon-logo.png" type="image/x-icon">
+</head>
+<body>  
+    <!-- Header -->
+    <header class="header">
+
+        <!-- Logo -->
+        <img src="./assets/images/deco/icon-logo.png" alt="Logo" class="logo__header">
+
+        <!-- nav bar -->
+        <nav class="nav_menu not-active">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobreNosotros" data-section="menu" data-value="item2">sobre Nosotros</a>
+            <a href="#explicacion" data-section="menu" data-value="item4">Explicacion</a>
+            <li><a href="luces.html"> Proyecto </a></li>
+            <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
+        </nav>
+
+        <div id="button" class="btn not-active">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <!-- HOME -->
+        <section class="home">
+                <picture class="container_image-home">
+                    <img class="image_home" src="./assets/images/luzAzul.png" alt="Foto de inicio">
+                </picture>
+
+                <div class="home_info">
+                    <div class="container_text-info">
+                        <p class="home_text-1" data-section="home" data-value="home_text-1">
+                            Bienvenidos a todos este es nuestro proyecto no tenga miedo y pase
+                        </p>
+                        <p class="home_text-2"> Somos SLO o explayados Smart Light Operationes </p>
+                    </div>
+                    <div>
+                        <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> 
+                            Un grupo de ex estudiantes de un bootcamp de aws que buscamos mejorar la vida de nuestros clientes con nuestra aplicacion
+                        </p>
+                    </div>
+                    <div class="container_parrafo-info">
+                        <p data-section="home" data-value="parrafo-info"> 
+                            Pero no diremos todo aqui venga recorra nuesta web.    
+                        </p>
+                    </div>
+
+                    <div class="container_button">
+                        <a href="luces.html" target="_blank">
+                            <button class="proyecto_button" data-section="home" data-value="proyecto_button">Esperimentar la magia de una</button>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sobre Nosotros -->
+        <section class="sobreNosotros" id="sobreNosotros">
+            <h1 data-section="sobreNosotros">Sobre Nosotros</h1>
+            
+            <!-- Contenedor de todas las tarjetas -->
+            <div class="cards_container--us">
+                
+                <!-- Persona 1 -->
+                <div class="cards--us">
+                    <img class="persona1" src="./assets/images/icon/persona1.jpeg" alt="Tatiana Rosa">
+                    <div class="container_texto--us">
+                        <p data-section="sobreNosotros" data-value="persona1.0">Fernanda Tatiana Rosa</p>
+                        <p data-section="sobreNosotros" data-value="persona1.1">ideadora del plan</p>
+                        <a href="https://www.linkedin.com/in/fernanda-tatiana-r/" target="_blank">
+                            <button class="moreInfo_button" data-section="sobreNosotros" data-value="moreInfo_button1">
+                                Más información
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Persona 2 -->
+                <div class="cards--us">
+                    <img class="persona2" src="./assets/images/icon/persona2.jpeg" alt="Facundo Morales">
+                    <div class="container_texto--us">
+                        <p data-section="sobreNosotros" data-value="persona2.0">Facundo Morales Weston</p>
+                        <p data-section="sobreNosotros" data-value="persona2.1">Diseñador UX/UI</p>
+                        <a href="https://fcundo-morales-portafolio.netlify.app" target="_blank">
+                            <button class="moreInfo_button" data-section="sobreNosotros" data-value="moreInfo_button2">
+                                Más información
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Persona 3 -->
+                <div class="cards--us">
+                    <img class="persona2" src="./assets/images/icon/persona3.png" alt="persona 3">
+                    <div class="container_texto--us">
+                        <p data-section="sobreNosotros" data-value="persona3.0">nombre y aprellido</p>
+                        <p data-section="sobreNosotros" data-value="persona3.1">rol</p>
+                        <a href="https://www.youtube.com/watch?v=1pU-hRKsPq4&ab_channel=ElCuartetodeNos-Topic" target="_blank">
+                            <button class="moreInfo_button" data-section="sobreNosotros" data-value="moreInfo_button2">
+                                Más información
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Persona 4 -->
+                <div class="cards--us">
+                    <img class="persona2" src="./assets/images/icon/persona4.png" alt="persona 4">
+                    <div class="container_texto--us">
+                        <p data-section="sobreNosotros" data-value="persona4.0">nombre y aprellido</p>
+                        <p data-section="sobreNosotros" data-value="persona4.1">rol</p>
+                        <a href="https://www.youtube.com/watch?v=1pU-hRKsPq4&ab_channel=ElCuartetodeNos-Topic" target="_blank">
+                            <button class="moreInfo_button" data-section="sobreNosotros" data-value="moreInfo_button2">
+                                Más información
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- Persona 5 -->
+                <div class="cards--us">
+                    <img class="persona2" src="./assets/images/icon/persona5.png" alt="persona5">
+                    <div class="container_texto--us">
+                        <p data-section="sobreNosotros" data-value="persona5.0">nombre y aprellido</p>
+                        <p data-section="sobreNosotros" data-value="persona5.1">rol</p>
+                        <a href="https://www.youtube.com/watch?v=1pU-hRKsPq4&ab_channel=ElCuartetodeNos-Topic" target="_blank">
+                            <button class="moreInfo_button" data-section="sobreNosotros" data-value="moreInfo_button2">
+                                Más información
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <!-- Explicacion -->
+        <section class="explicacion" id="explicacion">
+                <h1 data-section="explicacion"> Explicacion </h1>
+                <div class="container_content-explicacion">
+                    <div class="container_texto-explicacion">
+                        <span class="title_explicacion"> Smart Light Operationes </span>
+                        <span class="texto_explicacion" data-section="explicacion">
+                            St is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)St is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)St is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)St is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)St is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)
+                        </span>
+                    </div>          
+                    <picture class="container_image-explicacion">
+                        <img class="image_explicacion" src="./assets/images/deco/icon-logo.png" alt="Ilustración">
+                    </picture>
+                </div>
+        </section>
+    
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+                <h1 data-section="contacto" data-value="title" data-aos="fade-up">Contacto</h1>
+    
+                <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <div class="container--contacto">
+                        <div class="container_text--contacto">
+                            <p data-section="contacto" data-value="text">
+                                Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.
+                            </p>
+                        </div>
+                        
+                        <!-- Formulario adaptado para Netlify -->
+                        <form id="form" class="form-contact" name="contacto-portafolio" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+    
+                            <!-- Campo oculto para evitar bots -->
+                            <input type="hidden" name="form-name" value="contacto-portafolio" />
+    
+                            <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required>
+                            <input id="email" type="email" name="email" placeholder="Correo" required>
+                            <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required> 
+                            <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
+        
+                            <div class="btn_form--contacto">
+                                <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </section> 
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="contianer--footer">
+            <div class="container_redes-footer">
+                <a href="luces.html" target="_blank">
+                    <img src="./assets/images/icon/icon-home.jpeg" alt="icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

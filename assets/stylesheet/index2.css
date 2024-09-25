@@ -1,0 +1,143 @@
+
+/* el css de las luces */
+
+:root {
+    --jet: #292929;
+    --white: #ffffff;
+    --light-grey: #d9d9d9;
+    --beaver: #a78976;
+    --black: #141414;
+    --eerie-black: #1f1f1f;
+    --var1: yellow;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0; /* Fondo gris claro */
+    margin: 0;
+}
+
+/* Estilo del título (h1) */
+.page-title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+/* El main ocupará todo el espacio disponible entre el header (si lo hay) y el footer */
+main {
+    flex: 1;  /* Hace que main ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.upload-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+}
+
+.upload-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #6e7dff, #9bc5ff); /* Efecto degradado sutil */
+    opacity: 0.1;
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.file-upload-area {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.file-upload-area:hover {
+    background-color: #f1f1f1;
+}
+
+.file-upload-area input[type="file"] {
+    display: none; /* Ocultar el input de archivo real */
+}
+
+.file-upload-area p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.upload-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-card button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer styling */
+footer {
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 50px; /* Tamaño de la imagen del logo */
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
