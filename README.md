@@ -4,4 +4,4 @@ Somos ex estudiantes de un bootcamp de aws y queremos con nuestro proyecto desar
 
 [***Link Del git ***  :fire:](https://github.com/facundomorales999/Smart-Light-OP)
 
-[***Link Del sitio***  :muscle:](https://github.com/facundomorales999/Smart-Light-OP)
+[***Link Del sitio***  :muscle:](https://facundomorales999.github.io/Smart-Light-OP/)
