@@ -8,24 +8,24 @@
     <title>Smart Light Operationes</title>
 
     <!-- Hojas de estilo -->
-    <link rel="stylesheet" href="./assets/stylesheet/index.css">
-    <link rel="stylesheet" href="./assets/stylesheet/loader.css">
-    <link rel="stylesheet" href="./assets/stylesheet/desktop.css">
+    <link rel="stylesheet" href="../assets/stylesheet/index.css">
+    <link rel="stylesheet" href="../assets/stylesheet/loader.css">
+    <link rel="stylesheet" href="../assets/stylesheet/desktop.css">
  <!--   <link rel="stylesheet" href="./assets/stylesheet/tablet.css"> -->
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/images/icon-logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/icon-logo.png" type="image/x-icon">
 </head>
 <body>  
     <!-- Header -->
     <header class="header">
 
         <!-- Logo -->
-        <img src="./assets/images/deco/icon-logo.png" alt="Logo" class="logo__header">
+        <img src="../assets/images/deco/icon-logo.png" alt="Logo" class="logo__header">
 
         <!-- nav bar -->
         <nav class="nav_menu not-active">
-            <a href="#home" class="active">Home</a>
+            <a href="#home" data-section="menu" class="active">Home</a>
             <a href="#sobreNosotros" data-section="menu" data-value="item2">sobre Nosotros</a>
             <a href="#explicacion" data-section="menu" data-value="item4">Explicacion</a>
             <li><a href="luces.html"> Proyecto </a></li>
@@ -42,7 +42,7 @@
         <!-- HOME -->
         <section class="home">
                 <picture class="container_image-home">
-                    <img class="image_home" src="./assets/images/luzAzul.png" alt="Foto de inicio">
+                    <img class="image_home" src="../assets/images/luzAzul.png" alt="Foto de inicio">
                 </picture>
 
                 <div class="home_info">
@@ -50,7 +50,9 @@
                         <p class="home_text-1" data-section="home" data-value="home_text-1">
                             Bienvenidos a todos este es nuestro proyecto no tenga miedo y pase
                         </p>
-                        <p class="home_text-2"> Somos SLO o explayados Smart Light Operationes </p>
+                        <p class="home_text-2"> 
+                            Somos SLO o explayados Smart Light Operationes 
+                        </p>
                     </div>
                     <div>
                         <p class="home_text-3 text-type" data-section="home" data-value="home_text-3"> 
@@ -65,7 +67,9 @@
 
                     <div class="container_button">
                         <a href="luces.html" target="_blank">
-                            <button class="proyecto_button" data-section="home" data-value="proyecto_button">Esperimentar la magia de una</button>
+                            <button class="proyecto_button" data-section="home" data-value="proyecto_button">
+                                Vivir la magia YA!
+                            </button>
                         </a>
                     </div>
                 </div>
@@ -80,7 +84,7 @@
                 
                 <!-- Persona 1 -->
                 <div class="cards--us">
-                    <img class="persona1" src="./assets/images/icon/persona1.jpeg" alt="Tatiana Rosa">
+                    <img class="persona1" src="../assets/images/icon/persona1.jpeg" alt="Tatiana Rosa">
                     <div class="container_texto--us">
                         <p data-section="sobreNosotros" data-value="persona1.0">Fernanda Tatiana Rosa</p>
                         <p data-section="sobreNosotros" data-value="persona1.1">ideadora del plan</p>
@@ -91,10 +95,9 @@
                         </a>
                     </div>
                 </div>
-
                 <!-- Persona 2 -->
                 <div class="cards--us">
-                    <img class="persona2" src="./assets/images/icon/persona2.jpeg" alt="Facundo Morales">
+                    <img class="persona2" src="../assets/images/icon/persona2.jpeg" alt="Facundo Morales">
                     <div class="container_texto--us">
                         <p data-section="sobreNosotros" data-value="persona2.0">Facundo Morales Weston</p>
                         <p data-section="sobreNosotros" data-value="persona2.1">Diseñador UX/UI</p>
@@ -107,7 +110,7 @@
                 </div>
                 <!-- Persona 3 -->
                 <div class="cards--us">
-                    <img class="persona2" src="./assets/images/icon/persona3.png" alt="persona 3">
+                    <img class="persona2" src="../assets/images/icon/persona3.png" alt="persona 3">
                     <div class="container_texto--us">
                         <p data-section="sobreNosotros" data-value="persona3.0">nombre y aprellido</p>
                         <p data-section="sobreNosotros" data-value="persona3.1">rol</p>
@@ -120,7 +123,7 @@
                 </div>
                 <!-- Persona 4 -->
                 <div class="cards--us">
-                    <img class="persona2" src="./assets/images/icon/persona4.png" alt="persona 4">
+                    <img class="persona2" src="../assets/images/icon/persona4.png" alt="persona 4">
                     <div class="container_texto--us">
                         <p data-section="sobreNosotros" data-value="persona4.0">nombre y aprellido</p>
                         <p data-section="sobreNosotros" data-value="persona4.1">rol</p>
@@ -133,7 +136,7 @@
                 </div>
                 <!-- Persona 5 -->
                 <div class="cards--us">
-                    <img class="persona2" src="./assets/images/icon/persona5.png" alt="persona5">
+                    <img class="persona2" src="../assets/images/icon/persona5.png" alt="persona5">
                     <div class="container_texto--us">
                         <p data-section="sobreNosotros" data-value="persona5.0">nombre y aprellido</p>
                         <p data-section="sobreNosotros" data-value="persona5.1">rol</p>
@@ -158,7 +161,7 @@
                         </span>
                     </div>          
                     <picture class="container_image-explicacion">
-                        <img class="image_explicacion" src="./assets/images/deco/icon-logo.png" alt="Ilustración">
+                        <img class="image_explicacion" src="../assets/images/deco/icon-logo.png" alt="Ilustración">
                     </picture>
                 </div>
         </section>
@@ -194,15 +197,25 @@
                 </div>
         </section> 
     </main>
+    
     <!-- Footer -->
     <footer>
         <div class="contianer--footer">
             <div class="container_redes-footer">
                 <a href="luces.html" target="_blank">
-                    <img src="./assets/images/icon/icon-home.jpeg" alt="icon">
+                    <img src="../assets/images/icon/icon-home.jpeg" alt="icon">
+                </a>
+                <a href="https://github.com/facundomorales999/Smart-Light-OP" target="_blank">
+                    <img src="../assets/images/icon/icon-github-hab.png" alt="icon">
                 </a>
             </div>
         </div>
     </footer>
+
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
 </body>
 </html>

@@ -301,7 +301,8 @@ span + span {
   margin-bottom: 1.5rem; /* Separación del título con el texto */
 }
 
-.home_text-2, .home_text-3 {
+.home_text-2,
+.home_text-3 {
   font-family: "PT Sans";
   color: var(--beaver);
   font-size: 1.6rem;
@@ -358,19 +359,19 @@ span + span {
 /* Sobre Nosotros */
 
 .sobreNosotros {
-    background-color: var(--eerie-black);
-    width: 100%;
-    height: auto;
+  background-color: var(--eerie-black);
+  width: 100%;
+  height: auto;
 }
 
 .sobreNosotros h1 {
-    display: block;
-    text-align: center;
-    color: var(--white);
-    font-family: 'Cooper Hewitt';
-    font-size: 2.4rem;
-    letter-spacing: .1rem;
-    padding: 6rem 0 5rem 0;
+  display: block;
+  text-align: center;
+  color: var(--white);
+  font-family: "Cooper Hewitt";
+  font-size: 2.4rem;
+  letter-spacing: 0.1rem;
+  padding: 6rem 0 5rem 0;
 }
 
 .cards_container--us {
@@ -409,17 +410,17 @@ span + span {
 }
 
 img.persona1 {
-    width: 24rem;
+  width: 24rem;
 }
 
 img.persona2 {
-    width: 21rem;
-    margin: 7rem 0 6rem 0;
+  width: 21rem;
+  margin: 7rem 0 6rem 0;
 }
 
 img.logo-forge {
-    width: 18rem;
-    margin: 2.4rem 0;
+  width: 18rem;
+  margin: 2.4rem 0;
 }
 
 .container_texto--us a {
@@ -428,44 +429,45 @@ img.logo-forge {
 
 .container_texto--us p:nth-child(1) {
   color: var(--beaver);
-  font-family: 'Cooper Hewitt';
-  letter-spacing: .1rem;
+  font-family: "Cooper Hewitt";
+  letter-spacing: 0.1rem;
   font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .container_texto--us p:nth-child(2) {
   color: var(--beaver);
-  font-family: 'Cooper Hewitt';
-  letter-spacing: .1rem;
+  font-family: "Cooper Hewitt";
+  letter-spacing: 0.1rem;
   font-size: 1.6rem; /* Texto un poco más pequeño */
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .cards--us p:nth-child(3) {
-    color: var(--beaver);
-    font-family: 'Cooper Hewitt';
-    letter-spacing: .1rem;
-    font-size: 1.4rem;
+  color: var(--beaver);
+  font-family: "Cooper Hewitt";
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
 }
 
 .moreInfo_button {
-    background-color: var(--beaver);
-    border-radius: 3rem;
-    padding: .6rem 2rem .5rem 2rem;
-    color: var(--jet);
-    font-family: 'Cooper Hewitt';
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin: 1rem 0;  /* Reduce el margen superior */
-    border: none;
-    cursor: pointer;
+  background-color: var(--beaver);
+  border-radius: 3rem;
+  padding: 0.6rem 2rem 0.5rem 2rem;
+  color: var(--jet);
+  font-family: "Cooper Hewitt";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0; /* Reduce el margen superior */
+  border: none;
+  cursor: pointer;
 }
 
 /* EXPLICACION */
+
 .explicacion {
   background-color: var(--eerie-black);
   width: 100%;
@@ -476,9 +478,9 @@ img.logo-forge {
   display: block;
   text-align: center;
   color: var(--white);
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   font-size: 2.4rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   padding-top: 6rem;
   margin-bottom: 2rem; /* Añade separación entre el título y el contenido */
 }
@@ -497,20 +499,20 @@ img.logo-forge {
 }
 
 .title_explicacion {
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   color: var(--beaver);
   text-align: center;
   font-size: 2.2rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   font-weight: bold;
   margin-bottom: 2rem;
 }
 
 .texto_explicacion {
   color: var(--light-grey);
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   font-size: 1.5rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   white-space: pre-line;
   text-align: justify;
   line-height: 2.2rem;
@@ -544,9 +546,9 @@ img.logo-forge {
   display: block;
   text-align: center;
   color: var(--white);
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   font-size: 2.4rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   padding: 6rem 0 4rem 0;
 }
 
@@ -568,7 +570,7 @@ img.logo-forge {
 
 .container_text--contacto p {
   font-size: 1.6rem;
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   color: var(--white);
   margin-bottom: 3rem;
   letter-spacing: 1px;
@@ -576,7 +578,7 @@ img.logo-forge {
 }
 
 .form-contact input {
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   background: transparent;
   border: 1px solid var(--light-grey);
   width: 100%;
@@ -601,7 +603,7 @@ img.logo-forge {
 .form-contact textarea {
   background: transparent;
   border: 1px solid var(--light-grey);
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
@@ -625,7 +627,6 @@ img.logo-forge {
   background-color: #776254;
 }
 
-
 .form-contact textarea::-webkit-scrollbar-thumb {
   background-color: #574438;
 }
@@ -638,9 +639,9 @@ img.logo-forge {
 .btn_form--contacto button {
   background: #776254;
   border: none;
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   width: 20rem;
-  padding: .8rem 1rem;
+  padding: 0.8rem 1rem;
   border-radius: 1rem;
   color: var(--white);
   font-size: 1.8rem;
@@ -654,8 +655,8 @@ img.logo-forge {
   color: var(--black);
   font-weight: bold;
   transform: scale(1.1);
-  box-shadow: 0px 9px 15px -1px rgba(0,0,0,0.20);
-  transition: all .4s ease;
+  box-shadow: 0px 9px 15px -1px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
 }
 
 .btn_form--contacto button:active {
@@ -684,7 +685,7 @@ footer {
 
 .container_redes-footer img {
   width: 3.5rem;
-  margin: 0 .5rem 1.5rem .5rem;
+  margin: 0 0.5rem 1.5rem 0.5rem;
 }
 
 .container_redes-footer .icon_codepen--footer {
@@ -697,7 +698,7 @@ footer {
 }
 
 .container_text--footer span {
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
@@ -709,13 +710,13 @@ footer {
 
 .container_text--footer img {
   width: 1.2rem;
-  margin: 0 .2rem;
+  margin: 0 0.2rem;
 }
 
 .container_text--footer span:nth-child(4) {
   color: var(--beaver);
-  letter-spacing: .1rem;
-  margin-left: .2rem;
+  letter-spacing: 0.1rem;
+  margin-left: 0.2rem;
 }
 
 /* Footer */
@@ -740,7 +741,7 @@ footer {
 
 .container_redes-footer img {
   width: 3.5rem;
-  margin: 0 .5rem 1.5rem .5rem;
+  margin: 0 0.5rem 1.5rem 0.5rem;
 }
 
 .container_redes-footer .icon_codepen--footer {
@@ -753,7 +754,7 @@ footer {
 }
 
 .container_text--footer span {
-  font-family: 'Cooper Hewitt';
+  font-family: "Cooper Hewitt";
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
@@ -765,11 +766,11 @@ footer {
 
 .container_text--footer img {
   width: 1.2rem;
-  margin: 0 .2rem;
+  margin: 0 0.2rem;
 }
 
 .container_text--footer span:nth-child(4) {
   color: var(--beaver);
-  letter-spacing: .1rem;
-  margin-left: .2rem;
+  letter-spacing: 0.1rem;
+  margin-left: 0.2rem;
 }
